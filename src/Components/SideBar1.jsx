@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-const Dash = (props) => {
+const Sidebar = (props) => {
     return ( 
         <div className="page-wrapper chiller-theme toggled">
         <Link id="show-sidebar" className="btn btn-sm btn-dark" to="#">
@@ -208,4 +208,4 @@ const Dash = (props) => {
      );
 }
  
-export default Dash;
+export default Sidebar;
